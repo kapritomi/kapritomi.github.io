@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    background: linear-gradient(#20BF55, #01BAEF);
+}
+thead{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center; 
+}
+th{
+    background-color: lightblue  !important;
+}
+tbody{
+    font-size: large;
+    text-shadow: 1px 1px 5px gray;
+    color: black;
+}
+.kepek{
+    width: 100px;
+    height: 150px;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 5px;
+    transition: transform .5s ease;
+}
+.kepek:hover{
+    transform: scale(1.5);
+}
